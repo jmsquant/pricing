@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hesperides"
+version = "0.1.0"
+description = "Derivatives pricing library - Hesperides course"
+requires-python = "==3.13.*"
+dependencies = [
+    "numpy>=2.0.0",
+    "scipy>=1.14",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.2"]
+
+[tool.setuptools.packages.find]
+include = ["hesperides*", "tests*"]

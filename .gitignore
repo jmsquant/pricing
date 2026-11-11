@@ -1,0 +1,85 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.ipynb_checkpoints/
+
+# Virtual environments and bundled runtimes
+.venv/
+venv/
+env/
+ENV/
+.runtime/
+
+# Build and distribution artifacts
+/build/
+/dist/
+/wheelhouse/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+/Curvas.zip
+/LibreriaValoracion.zip
+
+# Test, coverage and profiling output
+.tox/
+.nox/
+.coverage
+.coverage.*
+/htmlcov/
+/coverage.xml
+/junit.xml
+*.cover
+*.prof
+
+# Local configuration and credentials (commit only sanitized examples)
+.env
+.env.*
+!.env.example
+!.env.*.example
+.python-version
+.pypirc
+.netrc
+pip-log.txt
+pip-delete-this-directory.txt
+secrets/
+secrets.*
+credentials/
+credentials.*
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+.ssh/
+.aws/
+.azure/
+.gcloud/
+
+# Local market inputs and generated results
+/inputs/
+/outputs/
+/data/private/
+/data/local/
+
+# Editor, operating system and temporary files
+.idea/
+.vscode/
+.vs/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
